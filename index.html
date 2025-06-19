@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -15,33 +14,39 @@
 
 <body>
   <main class="container">
-    <section class="main-card">
-      <div class="image-container">
-        <img src="images/image-equilibrium.jpg" alt="nft" class="main-image">
-        <div class="overlay"></div>
+    <section class="card">
+      <div class="card__images">
+        <img src="images/image-equilibrium.jpg" alt="NFT" class="main-image">
+        <div class="card__images-layer"></div>
         <img src="images/icon-view.svg" alt="view icon" class="view">
       </div>
+
       <div class="text-container">
-        <h1 class="title">Equilibrium #3429</h1>
+        <h1 class="card__title">Equilibrium #3429</h1>
         <p class="description">Our Equilibrium collection promotes balance and calm.</p>
-        <div class="eth-info">
-          <div class="info">
-            <img src="images/icon-ethereum.svg" alt="ETH" class="icon"><span class="eth">0.041 ETH</span>
+
+        <div class="card__time">
+          <div class="card__time-left info">
+            <img src="images/icon-ethereum.svg" alt="ETH icon" class="icon">
+            <span class="eth">0.041 ETH</span>
           </div>
-          <div class="info">
-            <img src="images/icon-clock.svg" alt="clock" class="icon"><span>3 days left</span>
+          <div class="card__time-right info">
+            <img src="images/icon-clock.svg" alt="Clock icon" class="icon">
+            <span>3 days left</span>
           </div>
         </div>
-        <div class="creator-info">
-          <img src="images/image-avatar.png" alt="aman rawat" class="avatar">
+
+        <div class="card__creator creator-info">
+          <img src="images/image-avatar.png" alt="Aman Rawat" class="avatar">
           <p class="creator-text">Creation of <span class="creator-name">Aman Rawat</span></p>
         </div>
       </div>
     </section>
   </main>
+
   <footer class="attribution">
-    Challenge by <a href="https://www.crio.do" target="_blank">Crio.Do</a>.
-    Coded by <a href="#">Aman Rawat</a>.
+    Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener">Crio.Do</a>.
+    Coded by <a href="" target="_blank" rel="noopener">Aman Rawat</a>.
   </footer>
 </body>
 
