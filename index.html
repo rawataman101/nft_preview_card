@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <title>Frontend Mentor | NFT preview card component</title>
-
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-  <main class="container">
-    <section class="card">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Preview Card</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="card">
       <div class="card__images">
-        <img src="images/image-equilibrium.jpg" alt="NFT" class="main-image">
+        <img
+          src="./images/image-equilibrium.jpg"
+          alt="Equilibrium Cube"
+        />
         <div class="card__images-layer"></div>
-        <img src="images/icon-view.svg" alt="view icon" class="view">
       </div>
 
-      <div class="text-container">
-        <h1 class="card__title">Equilibrium #3429</h1>
-        <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+      <h1 class="card__title">Equilibrium #3429</h1>
+      <p class="card__description">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
 
-        <div class="card__time">
-          <div class="card__time-left info">
-            <img src="images/icon-ethereum.svg" alt="ETH icon" class="icon">
-            <span class="eth">0.041 ETH</span>
-          </div>
-          <div class="card__time-right info">
-            <img src="images/icon-clock.svg" alt="Clock icon" class="icon">
-            <span>3 days left</span>
-          </div>
+      <div class="card__time">
+        <div class="card__time-left">
+          <img src="./images/icon-ethereum.svg" alt="ETH" width="11" />
+          <span>0.041 ETH</span>
         </div>
-
-        <div class="card__creator creator-info">
-          <img src="images/image-avatar.png" alt="Aman Rawat" class="avatar">
-          <p class="creator-text">Creation of <span class="creator-name">Aman Rawat</span></p>
+        <div class="card__time-right">
+          <img src="./images/icon-clock.svg" alt="Clock" width="15" />
+          <span>3 days left</span>
         </div>
       </div>
-    </section>
-  </main>
 
-  <footer class="attribution">
-    Challenge by <a href="https://www.crio.do" target="_blank" rel="noopener">Crio.Do</a>.
-    Coded by <a href="" target="_blank" rel="noopener">Aman Rawat</a>.
-  </footer>
-</body>
+      <div class="card__creator">
+        <img
+          src="https://avatars.githubusercontent.com/u/42992769?v=4&size=64"
+          alt="Creator"
+          width="30"
+        />
+        <p>Creation of <a href="#">Aman Rawat</a></p>
+      </div>
+    </main>
 
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.crio.do" target="_blank">Crio.Do</a>. Coded by
+      <a href="https://github.com/rawataman101" target="_blank">Aman Rawat</a>.
+    </footer>
+  </body>
 </html>
